@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Overview from "./components/Overview";
 import Testimonial from "./components/Testimonial";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Testimonial message="We had our Dropbox of thousands of files decluttered almost
         immediately." messageBy={"Jennie Moeller, Art Director, Literati"}/>
+        <Overview/>
     </div>
   );
 }
