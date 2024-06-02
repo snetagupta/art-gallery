@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
 import Testimonial from "./components/Testimonial";
+import Benefits from "./components/Benefits"
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         immediately." messageBy={"Jennie Moeller, Art Director, Literati"}/>
      <Companies />
         <Overview/>
-
+<Benefits/>
     
      
 
