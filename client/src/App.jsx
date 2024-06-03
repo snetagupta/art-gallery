@@ -5,6 +5,7 @@ import Overview from "./components/Overview";
 import Testimonial from "./components/Testimonial";
 import Benefits from "./components/Benefits";
 import Article from "./components/Article";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Overview />
       <Benefits />
       <Article/>
+      <Footer/>
     </div>
   );
 }
