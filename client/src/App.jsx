@@ -6,6 +6,7 @@ import Testimonial from "./components/Testimonial";
 import Benefits from "./components/Benefits";
 import Article from "./components/Article";
 import Footer from "./components/Footer";
+import Login from "./Pages/Login";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Benefits />
       <Article/>
       <Footer/>
+      <Login/>
     </div>
   );
 }
