@@ -7,6 +7,8 @@ import Benefits from "./components/Benefits";
 import Article from "./components/Article";
 import Footer from "./components/Footer";
 import Login from "./Pages/Login";
+import Trending from "./Pages/Trending";
+import PreviewCard from "./components/PreviewCard";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <Article/>
       <Footer/>
       <Login/>
+      <Trending/>
+      <PreviewCard/>
     </div>
   );
 }
