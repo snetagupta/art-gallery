@@ -1,7 +1,7 @@
 import { IoIosArrowRoundBack } from "react-icons/io";
 import logo from "../assets/logo.png";
 import forest from "../assets/trending/forest.jpg";
-import NewArrivalSection from "../components/NewArrivalSection";
+import NewArrivalSection from "../components//newArrival/NewArrivalSection";
 
 
 const NewArrival = () =>{

@@ -1,8 +1,8 @@
 import React from "react";
 import OverviewCard from "./OverviewCard";
-import overview1 from "../assets/overview/overview1.png"
-import overview2 from "../assets/overview/overview2.png"
-import overview3 from "../assets/overview/overview3.png"
+import overview1 from "../../assets/overview/overview1.png"
+import overview2 from "../../assets/overview/overview2.png"
+import overview3 from "../../assets/overview/overview3.png"
 
 const Overview = () => {
   const features = [

@@ -2,7 +2,7 @@ import React from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import logo from "../assets/logo.png";
 import forest from "../assets/trending/forest.jpg";
-import ProductSection from "../components/ProductSection";
+import ProductSection from "../components/trending/ProductSection"
 
 const Trending = () => {
   return (

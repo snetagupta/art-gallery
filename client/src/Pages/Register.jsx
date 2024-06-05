@@ -54,7 +54,10 @@ const Register = () => {
           </div>
         </div>
         <div className="flex-1">
-          <img className="rounded-md h-[calc(100vh-80px)] object-cover" src={road} />
+          <img
+            className="rounded-md h-[calc(100vh-80px)] object-cover"
+            src={road}
+          />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import react from "react";
-import article from "../assets/article/article.jpg";
-import articleicon from "../assets/article/articleicon.png";
+import article from "../../assets/article/article.jpg";
+import articleicon from "../../assets/article/articleicon.png";
 
 const Article = () => {
   return (
