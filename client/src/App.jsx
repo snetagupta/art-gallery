@@ -11,6 +11,7 @@ import Login from "./Pages/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Register from "./Pages/Register";
+import Trending from "./Pages/Trending";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+         <Route path="/trending" element={<Trending/>}/>
+
         </Routes>
       </BrowserRouter>
 
