@@ -1,6 +1,6 @@
 import React from "react";
-import arrow from "../assets/arrow/arrow.png"
-import artGallery from "../assets/benefits/artGallery.jpeg"
+// import arrow from "../assets/arrow/arrow.png"
+import artGallery from "../../assets/benefits/artGallery.jpeg"
 import { BsArrowReturnRight } from "react-icons/bs";
 
 const Benefits =() =>{

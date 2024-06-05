@@ -2,9 +2,9 @@ import { FaRegCircleUser } from "react-icons/fa6";
 import { IoIosThumbsUp } from "react-icons/io";
 import { LuEye } from "react-icons/lu";
  
- const NewArrivalCard = ({image}) =>{
+ const SaleCard = ({image}) =>{
     return(
-        <div>
+        <div className="transition-all duration-300 hover:scale-105">
         <div className="w-[230px] h-[230px] ">
           <div className="relative">
             <img
@@ -12,9 +12,9 @@ import { LuEye } from "react-icons/lu";
               src={image}
             />
             <div className="absolute left-2 top-2 flex items-center gap-2 text-sm bg-green-500 text-white px-2 py-1 rounded-lg">
-                <p>1 Day ago</p>
+                <p>80% OFF</p>
             </div>
-            <div className="absolute right-2 top-2 flex items-center gap-2 text-2xl bg-white px-2 py-1 rounded-lg">
+            <div className="absolute right-2 top-2 flex items-center gap-2 text-2xl bg-white px-2 py-1 rounded-lg bg-opacity-80">
               <LuEye />
               <IoIosThumbsUp className="text-yellow-500" />
             </div>
@@ -28,4 +28,4 @@ import { LuEye } from "react-icons/lu";
        </div>
     )
  }
- export default NewArrivalCard;
+ export default SaleCard;

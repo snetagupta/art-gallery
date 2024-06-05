@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 import { PiCopyrightLight,PiInstagramLogoLight,PiLinkedinLogoLight,PiTwitterLogoFill } from "react-icons/pi";
 
 const Footer = () => {

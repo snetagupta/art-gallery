@@ -1,8 +1,7 @@
 import { IoIosArrowRoundBack } from "react-icons/io";
 import logo from "../assets/logo.png";
 import forest from "../assets/trending/forest.jpg";
-import SaleSection from "../components/SaleSection";
-
+import SaleSection from "../components/sale/SaleSection";
 const Sale = () =>{
     return(
         <div className="py-8 mx-16">
