@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Testimonial from "../components/Testimonial";
 import Companies from "../components/Companies";
 import Overview from "../components/Overview";
 import Benefits from "../components/Benefits";
 import Article from "../components/Article";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (

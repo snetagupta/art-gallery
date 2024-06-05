@@ -3,14 +3,14 @@ import { FaRegCircleUser } from "react-icons/fa6";
 import { IoIosThumbsUp } from "react-icons/io";
 import { LuEye } from "react-icons/lu";
 
-const PreviewCard = () => {
+const PreviewCard = ({image}) => {
   return (
     <div>
     <div className="w-[230px] h-[230px] ">
       <div className="relative">
         <img
           className="w-[230px] h-[230px] object-cover rounded-md absolute "
-          src={forest}
+          src={image}
         />
         <div className="absolute right-2 top-4 flex items-center gap-2 text-2xl ">
           <LuEye />
