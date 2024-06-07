@@ -6,6 +6,7 @@ import Register from "./Pages/Register";
 import Trending from "./Pages/Trending";
 import Sale from "./Pages/Sale";
 import NewArrival from "./Pages/NewArrival";
+import Products from "./Pages/Products";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
          <Route path="/trending" element={<Trending/>}/>
          <Route path="/sale" element={<Sale/>}/>
          <Route path="/new-arrival" element={<NewArrival/>}/>
+         <Route path="/products" element={<Products/>}/>
         </Routes>
       </BrowserRouter>
 
