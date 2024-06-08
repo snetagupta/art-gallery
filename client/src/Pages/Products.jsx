@@ -33,8 +33,6 @@ const Products = () => {
             <ArtCard/>
             <ArtCard/>
         </div>
-   
-   
    </div>
     </div>
   );
