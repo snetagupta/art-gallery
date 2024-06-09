@@ -9,6 +9,7 @@ import NewArrival from "./Pages/NewArrival";
 import Products from "./Pages/Products";
 import Profile from "./Pages/Profile";
 import Pricing from "./Pages/Pricing";
+import Create from "./Pages/Create";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
          <Route path="/products" element={<Products/>}/>
          <Route path="/profile" element={<Profile/>}/>
          <Route path="/pricing" element={<Pricing/>}/>
+         <Route path="/create" element={<Create/>}/>
         </Routes>
       </BrowserRouter>
 
